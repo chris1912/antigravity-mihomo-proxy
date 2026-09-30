@@ -1,0 +1,15 @@
+{
+  "subscriptionUrl": "",
+  "selectedNode": "",
+  "antigravityPath": "",
+  "proxyPort": 7899,
+  "controllerPort": 19090,
+  "portMappings": [
+    {
+      "port": 7899,
+      "node": ""
+    }
+  ],
+  "selectedPort": 7899,
+  "customInstances": []
+}

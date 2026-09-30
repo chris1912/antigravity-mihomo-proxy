@@ -1,0 +1,37 @@
+# 用户私有配置与密钥
+config/settings.json
+
+# 环境变量、私钥与证书容器 / Environment files, private keys and certificate stores
+# Codex，2026-09-30：公开源码不包含本机凭据文件。
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# 运行时生成数据与日志
+runtime/*
+!runtime/.gitkeep
+!runtime/instances/
+runtime/instances/*
+!runtime/instances/.gitkeep
+logs/*
+!logs/.gitkeep
+cache.db
+*.backup
+*.tmp
+*.corrupt*
+
+# 订阅缓存与规则集
+providers/*
+!providers/.gitkeep
+
+# 辅助测试与中间目录
+.codex/
+dist/
+*.zip
+
+# 大文件二进制核心（通过安装器/包自动管理）
+mihomo.exe
